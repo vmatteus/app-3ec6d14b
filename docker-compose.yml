@@ -1,10 +1,10 @@
 version: '2'
 services:
-    base-api:
-        container_name: base-api
+    appmax-api:
+        container_name: appmax-api
         build: ./docker
         volumes: 
-          - ./src:/opt/base-api/src
+          - ./src:/opt/appmax-api/src
         expose: 
           - "8000"
         ports:
