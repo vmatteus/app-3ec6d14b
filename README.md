@@ -1,8 +1,9 @@
-# Setup Base - Api
+# Setup AppMax - Teste - Api
 
-### Documentação geral
+### Postman com os endpoints
 
-...
+https://documenter.getpostman.com/view/2066044/UV5f8uLT
+
 
 ### Pré-requisitos:
 
@@ -11,6 +12,12 @@ Para trabalhar nesse projeto você ira precisar instalar:
 *[ Docker ](https://www.docker.com/get-started)			
 
 *[ Docker Compose ](https://docs.docker.com/compose/install/)
+
+### Instalar o Mysql caso seja necessário
+
+*[ Mysql ](https://github.com/vmatteus/docker-mysql)
+
+Descobrindo o ip do docker: docker network inspect genial | grep Gateway
 
 ### Preparando o ambiente Docker:
 
