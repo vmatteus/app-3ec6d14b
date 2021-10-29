@@ -26,7 +26,7 @@ Descobrindo o ip do docker: docker network inspect genial | grep Gateway
         sudo docker-compose up
 
     Entrando no ambiente docker:
-        sudo docker exec -it base-api bash 
+        sudo docker exec -it appmax-api bash 
 
     Renomeie o arquivo .env.example para .env
         chmod 777 .env.example
