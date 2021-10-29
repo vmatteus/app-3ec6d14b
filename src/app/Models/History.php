@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Product extends Model
+class History extends Model
 {
     use SoftDeletes;
 
@@ -15,9 +15,15 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [
-        'name,',
+        'product_id',
         'sku',
-        'quantity'
+        'quantity',
+        'type'
     ];
+
+    public function product()
+    {
+        return $this->belongsTo(Product::class);
+    }
 
 }

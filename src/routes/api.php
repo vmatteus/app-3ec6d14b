@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('product', [\App\Http\Controllers\ProductController::class, 'create']);
+Route::post('product_movement', [\App\Http\Controllers\ProductController::class, 'movement']);
+Route::get('product_history', [\App\Http\Controllers\ProductController::class, 'history']);

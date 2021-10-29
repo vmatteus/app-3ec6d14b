@@ -12,7 +12,7 @@ class ProductTransformer extends TransformerAbstract
             'id'                => $entity->id,
             'name'              => $entity->name,
             'sku'               => $entity->sku,
-            'initial_quantity'  => $entity->initial_quantity,
+            'quantity'          => $entity->quantity,
             'created_at'        => $entity->created_at->format('Y-m-d')
         ];
     }
